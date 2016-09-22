@@ -1,8 +1,8 @@
 {
-    "name": "intro.js",
+    "name": "mit-intro.js",
     "description": "Better introductions for websites and features with a step-by-step guide for your projects",
     "version": "2.1.0",
-    "author": "Afshin Mehrabani <afshin.meh@gmail.com>",
+    "author": "Thomas Grainger <mit-intro.js@graingert.co.uk>",
     "repository": {
         "type": "git",
         "url": "https://github.com/usablica/intro.js"
@@ -14,7 +14,7 @@
         "node >=0.1.90"
     ],
     "main": "intro.js",
-    "license": "See LICENSE.md",
+    "license": "MIT",
     "spm": {
         "main": "intro.js",
         "output": ["introjs.css"]
