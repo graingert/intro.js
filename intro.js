@@ -3,7 +3,8 @@
  * https://github.com/graingert/intro.js
  * MIT licensed
  *
- * Copyright (C) 2013 usabli.ca - A weekend project by Afshin Mehrabani (@afshinmeh)
+ * Copyright (C) 2016 Thomas Grainger - Forked to remain MIT.
+ * Portions of this software are: Copyright (C) 2013 usabli.ca - A weekend project by Afshin Mehrabani (@afshinmeh)
  */
 
 (function (root, factory) {
