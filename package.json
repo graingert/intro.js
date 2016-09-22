@@ -5,7 +5,7 @@
     "author": "Thomas Grainger <mit-intro.js@graingert.co.uk>",
     "repository": {
         "type": "git",
-        "url": "https://github.com/usablica/intro.js"
+        "url": "https://github.com/graingert/intro.js"
     },
     "devDependencies": {
         "node-minify": "*"

@@ -5,7 +5,7 @@
 ## Where to get
 You can obtain your local copy of Intro.js from:
 
-**1)** This github repository, using ```git clone https://github.com/usablica/intro.js.git```
+**1)** This github repository, using ```git clone https://github.com/graingert/intro.js.git```
 
 **2)** Using bower ```bower install intro.js --save```
 
@@ -28,7 +28,7 @@ For example:
 <a href='http://google.com/' data-intro='Hello step one!'></a>
 ````
 
-See all attributes [here](https://github.com/usablica/intro.js/wiki/Documentation/#attributes).
+See all attributes [here](https://github.com/graingert/intro.js/wiki/Documentation/#attributes).
 
 **3)** Call this JavaScript function:
 ```javascript
@@ -39,11 +39,11 @@ Optionally, pass one parameter to `introJs` function to limit the presentation s
 
 **For example** `introJs(".introduction-farm").start();` runs the introduction only for elements with `class='introduction-farm'`.
 
-<p align="center"><img src="http://usablica.github.com/intro.js/img/introjs-demo.png"></p>
+<p align="center"><img src="https://graingert.co.uk/intro.js/img/introjs-demo.png"></p>
 
 ## Using templates
 
-IntroJS provides awesome templates and we are trying to update and add more templates for next versions. You can browse all templates here: https://github.com/usablica/intro.js/wiki/templates
+IntroJS provides awesome templates and we are trying to update and add more templates for next versions. You can browse all templates here: https://github.com/graingert/intro.js/wiki/templates
 
 In order to use templates, all you need to do is appending the template stylesheet to your page, *after* IntroJS CSS file:
 
@@ -57,7 +57,7 @@ In order to use templates, all you need to do is appending the template styleshe
 
 ## Documentation
 
-Please visit [Documentation](https://github.com/usablica/intro.js/wiki/Documentation) page on the Wiki.
+Please visit [Documentation](https://github.com/graingert/intro.js/wiki/Documentation) page on the Wiki.
 
 ## Using with:
 
@@ -108,7 +108,7 @@ Want to learn faster and easier? Here we have **Instant IntroJs**, Packt Publish
   <a target='_blank' href="http://www.packtpub.com/create-useful-introductions-for-websites-and-applications-with-introjs-library/book">Buy and Download</a>
 </p>
 
-## <a href="https://github.com/usablica/intro.js/blob/master/changelog.md">Release History</a>
+## <a href="https://github.com/graingert/intro.js/blob/master/changelog.md">Release History</a>
 
 ## Author
 **Afshin Mehrabani**
@@ -117,7 +117,7 @@ Want to learn faster and easier? Here we have **Instant IntroJs**, Packt Publish
 - [Github](https://github.com/afshinm)
 - [Personal page](http://afshinm.name/)
 
-[Other contributors](https://github.com/usablica/intro.js/graphs/contributors)
+[Other contributors](https://github.com/graingert/intro.js/graphs/contributors)
 
 
 ## Support/Discussion
