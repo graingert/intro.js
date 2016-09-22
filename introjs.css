@@ -404,9 +404,9 @@ tr.introjs-showElement > th {
   border-radius: 60px;
   height: 50px;
   width: 50px;
-  -webkit-animation: introjspulse 3s ease-out;
-  -moz-animation: introjspulse 3s ease-out;
-  animation: introjspulse 3s ease-out;
+  -webkit-animation: mit-introjs-pulse 3s ease-out;
+  -moz-animation: mit-introjs-pulse 3s ease-out;
+  animation: mit-introjs-pulse 3s ease-out;
   -webkit-animation-iteration-count: infinite;
   -moz-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
@@ -417,7 +417,7 @@ tr.introjs-showElement > th {
   opacity: 0;
 }
 
-@-moz-keyframes intrjspulse {
+@-moz-keyframes mit-introjs-pulse {
  0% {
     -moz-transform: scale(0);
     opacity: 0.0;
@@ -440,7 +440,7 @@ tr.introjs-showElement > th {
  }
 }
 
-@-webkit-keyframes "introjspulse" {
+@-webkit-keyframes "mit-introjs-pulse" {
  0% {
     -webkit-transform: scale(0);
     opacity: 0.0;
@@ -459,6 +459,29 @@ tr.introjs-showElement > th {
  }
  100% {
     -webkit-transform: scale(1);
+    opacity: 0.0;
+ }
+}
+
+@keyframes mit-introjs-pulse {
+ 0% {
+    transform: scale(0);
+    opacity: 0.0;
+ }
+ 25% {
+    transform: scale(0);
+    opacity: 0.1;
+ }
+ 50% {
+    transform: scale(0.1);
+    opacity: 0.3;
+ }
+ 75% {
+    transform: scale(0.5);
+    opacity: 0.5;
+ }
+ 100% {
+    transform: scale(1);
     opacity: 0.0;
  }
 }
